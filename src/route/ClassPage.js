@@ -36,6 +36,7 @@ import {
   NoMoreCustom,
   SubjectTitle,
 } from "../components/common/FetcherComponents";
+import QuestionCard from "../components/common/QuestionCard";
 
 const Button = styled.div`
   background-color: #2f80ed;
@@ -111,7 +112,7 @@ const ClassPage = (props) => {
             <Button onClick={handleNewReview}>รีวิววิชานี้</Button>
           </ContainerBtns>
         </ReviewTitle>
-
+        <QuestionCard />
         <AdaptorReviews id="adaptor">
           {reviews
             ? reviews.map(

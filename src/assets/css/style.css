@@ -13,7 +13,7 @@ body {
     transition: background 250ms linear;
 } 
 
-button {
+button, input {
   font-family: 'Kanit', arial, sans-serif;
   font-size: inherit;
 }
